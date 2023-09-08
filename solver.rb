@@ -13,7 +13,7 @@ class Solver
   end
 
   def fizzbuzz(int)
-    if (int % 2).zero? && (int % 5).zero?
+    if (int % 3).zero? && (int % 5).zero?
       'fizzbuzz'
     elsif (int % 3).zero?
       'fizz'

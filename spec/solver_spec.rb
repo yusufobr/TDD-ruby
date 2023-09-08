@@ -25,4 +25,18 @@ describe Solver do
       expect(result).to eq(120)
     end
   end
+
+  describe '#reverse' do
+    it "should reverse the string 'hello'" do
+      expect(@solver.reversestring('hello')).to eq('olleh')
+    end
+
+    it "should reverse the string 'world'" do
+      expect(@solver.reversestring('world')).to eq('dlrow')
+    end
+
+    it 'should reverse an empty string' do
+      expect(@solver.reversestring('')).to eq('')
+    end
+  end
 end

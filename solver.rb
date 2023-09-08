@@ -8,7 +8,7 @@ class Solver
     factorial # Return the factorial value
   end
 
-  def reverse(word)
+  def reversestring(word)
     word.reverse
   end
 
